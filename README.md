@@ -47,4 +47,4 @@ cd Source_file.py
 It is highly recommended to set up a Python virtual environment to isolate the dependencies for this project.
 
 For Windows:
-``` python -m venv venv
+python -m venv venv
