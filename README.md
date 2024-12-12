@@ -21,7 +21,7 @@ This project implements a recommendation system that suggests posts to users bas
 
 ## Project Structure
 
-```plaintext
+```bash
 .
 ├── app.py                # Main Flask application with API endpoints
 ├── filtered_df.csv       # CSV file containing user post data
@@ -48,3 +48,41 @@ It is highly recommended to set up a Python virtual environment to isolate the d
 
 For Windows:
 python -m venv venv
+
+2. Set Up Python Virtual Environment
+It is highly recommended to set up a Python virtual environment to isolate the dependencies for this project.
+
+For macOS/Linux:
+bash
+Copy code
+python3 -m venv venv
+
+3. Activate the Virtual Environment
+For Windows:
+bash
+Copy code
+.\venv\Scripts\activate
+For macOS/Linux:
+```bash
+Copy code
+source venv/bin/activate
+
+4. Install Dependencies
+Once the virtual environment is activated, install the project dependencies using the following command:
+
+```bash
+Copy code
+pip install -r requirements.txt
+5. Run the Flask Application
+To run the application, use the following command:
+
+``` bash
+Copy code
+python app.py
+The Flask application will start running on http://localhost:5000/ by default.
+
+6. Access the Web Interface
+Once the Flask server is running, you can access the web interface and interact with the recommendation system by visiting the following URL in your browser:
+
+Copy code
+http://localhost:5000
