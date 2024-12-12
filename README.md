@@ -21,8 +21,7 @@ This project implements a recommendation system that suggests posts to users bas
 
 ## Project Structure
 
-```bash
-.
+``` 
 ├── app.py                # Main Flask application with API endpoints
 ├── filtered_df.csv       # CSV file containing user post data
 ├── requirements.txt      # Project dependencies
@@ -39,12 +38,13 @@ Follow these steps to set up and run the project on your local machine:
 
 First, clone the repository to your local machine:
 
-```bash
+```
 git clone https://github.com/Raghu6798/Recommendation_Based_model.git
 cd Source_file.py
 
 ##2. Set Up Python Virtual Environment
 It is highly recommended to set up a Python virtual environment to isolate the dependencies for this project.
+
 
 For Windows:
 python -m venv venv
