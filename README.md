@@ -10,7 +10,6 @@ This project implements a recommendation system that suggests posts to users bas
 - **Category-based recommendations**: Users can filter recommendations by category.
 - **Mood-based recommendations**: Recommendations can be filtered based on the user’s mood.
 - **Hyperparameter optimization**: Uses Optuna to optimize the weights for different features in the recommendation algorithm.
-- **Web API**: Provides 3 API endpoints to fetch recommendations.
 
 ## Technology Stack
 
