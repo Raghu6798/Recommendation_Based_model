@@ -31,3 +31,20 @@ This project implements a recommendation system that suggests posts to users bas
 │   ├── output.html       # Displays recommendations to the user
 ├── README.md             # This file
 
+## Setup Instructions
+
+Follow these steps to set up and run the project on your local machine:
+
+### 1. Clone the Repository
+
+First, clone the repository to your local machine:
+
+```bash
+git clone https://github.com/Raghu6798/Recommendation_Based_model.git
+cd Source_file.py
+
+##2. Set Up Python Virtual Environment
+It is highly recommended to set up a Python virtual environment to isolate the dependencies for this project.
+
+For Windows:
+``` python -m venv venv
