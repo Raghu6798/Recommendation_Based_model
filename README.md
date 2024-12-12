@@ -60,18 +60,18 @@ python3 -m venv venv
 3. Activate the Virtual Environment
 For Windows:
 ```
-Copy code
+
 .\venv\Scripts\activate
+
 For macOS/Linux:
 ```
-Copy code
 source venv/bin/activate
 
 4. Install Dependencies
 Once the virtual environment is activated, install the project dependencies using the following command:
 
 ```
-Copy code
+
 pip install -r requirements.txt
 5. Run the Flask Application
 To run the application, use the following command:
